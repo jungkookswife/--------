@@ -13,3 +13,7 @@ def convert_number_to_words(amount):
         currency = "рубля"
     else:
         currency = "рублей"
+
+    result = words.capitalize() + " " + currency
+
+    return result
