@@ -17,3 +17,7 @@ def convert_number_to_words(amount):
     result = words.capitalize() + " " + currency
 
     return result
+
+amount = int(input("Введите сумму от 1 до 100000: "))
+result = convert_number_to_words(amount)
+print(result)
